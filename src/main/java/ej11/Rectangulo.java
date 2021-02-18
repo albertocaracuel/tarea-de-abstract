@@ -15,12 +15,10 @@ public class Rectangulo extends Figura {
         super(base, altura);
     }
 
-    
-    public double calcularArea(double base, double altura) {
-        double dimension = base*altura;
-        
+    public double calcularArea() {
+        double dimension = super.getAltura()*super.getBase();
+
         return dimension;
     }
 
-   
 }

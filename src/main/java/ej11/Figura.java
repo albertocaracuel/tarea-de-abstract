@@ -19,7 +19,7 @@ public abstract class Figura {
         this.altura = altura;
     }
     
-    public abstract double calcularArea(double base, double altura);
+    public abstract double calcularArea();
 
     public double getBase() {
         return base;
@@ -41,6 +41,8 @@ public abstract class Figura {
     public String toString() {
         return "Figura{" + "base=" + base + ", altura=" + altura + '}';
     }
+
+    
     
     
 }

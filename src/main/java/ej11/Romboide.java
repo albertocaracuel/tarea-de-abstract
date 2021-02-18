@@ -9,16 +9,16 @@ package ej11;
  *
  * @author alberto
  */
-public class Romboide extends Figura{
-    
+public class Romboide extends Figura {
+
     public Romboide(double base, double altura) {
         super(base, altura);
     }
 
-    
-    public double calcularArea(double base, double altura) {
-        double dimension = base*altura;
-        
+    public double calcularArea() {
+
+        double dimension = super.getAltura()*super.getBase();
+
         return dimension;
     }
 }
