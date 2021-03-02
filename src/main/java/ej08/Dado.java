@@ -23,9 +23,9 @@ public class Dado extends Azar {
     public int lanzar() {
         Random r = new Random();
 
-        this.valor = r.nextInt(6 - 1 + 1) + 1;
+        int valor = r.nextInt(6 - 1 + 1) + 1;
 
-        return this.valor;
+        return valor;
     }
 
     public int getValor() {
